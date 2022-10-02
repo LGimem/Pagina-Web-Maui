@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+
+    <link rel="stylesheet" href="bootstrap-5.2.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="static/styles/tercero.css">
 </head>
 <body>
@@ -48,6 +51,76 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="sec_form_contact" class="sec-form-contact">
+        <div class="formulario">
+            <div class="form-titulo">
+                <h2>¿Querés hacernos una consulta?</h2>
+                <p>Envianos tu mensaje y te asesoramos</p>
+            </div>
+            <div>
+                <form>
+                    <!-- Name input -->
+                    <div class="form-outline mb-4">
+                    <input type="text" id="form4Example1" class="form-control" required/>
+                    <label class="form-label" for="form4Example1">Name</label>
+                    </div>
+                
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                    <input type="email" id="form4Example2" class="form-control" required/>
+                    <label class="form-label" for="form4Example2">Email address</label>
+                    </div>
+                    
+                    <!-- Teléfono input -->
+                    <div class="form-outline mb-4">
+                        <input type="teléfono" id="form4Example2" class="form-control" required />
+                        <label class="form-label" for="form4Example2">Teléfono</label>
+                    </div>
+
+                    <!-- Informacion desplegable del hotel -->
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Información general del hotel</option>
+                        <option value="1">Habitaciones</option>
+                        <option value="2">Servicios</option>
+                        <option value="3">Experiencias</option>
+                        <option value="4">Novedades</option>
+                    </select>
+
+
+                    <!-- Comentarios -->
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
+                        <label for="floatingTextarea2">Comentarios</label>
+                    </div>
+                    <br><br>
+                    
+                    <!-- Agree terminos y condiciones -->
+                    <div class="col-12">
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            Acepto términos y condiciones
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <!-- Submit button -->
+                    <div class="centrado">
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>         
+                    </div>
+                    </form>
+            </div>
+
+            <br><br>
+      
+        </div>
+
+
     </section>
 </body>
 </html>

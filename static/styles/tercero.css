@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 html{
@@ -45,13 +46,17 @@ html{
     height: auto; 
     top: 0px;
     
+    
 }
+
 
 .item-img img {
     width: 360px;
     height: 320px;
-    border: 3px solid #203038;
+    box-shadow: 0px 5px 23px -2px rgba(0,0,0,0.92); 
+    box-shadow: 0px 5px 23px -2px rgba(0,0,0,0.92);
     transition: all 0.5s ease 0s;
+    border-radius: 20px;
 
 }
 
@@ -61,12 +66,51 @@ html{
 }
 
 .item-titulo {
-    font-size: 20px;
     padding: 10px;
     color: #203038;
     margin: 20px 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.item-titulo h3{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+
+
+/* Formulario */
+.sec-form-contact{
+    padding: 60px;
+    background-color: #ffffff;
+}
+.formulario{
     
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 23px -2px rgba(0,0,0,0.92); 
+    box-shadow: 0px 5px 23px -2px rgba(0,0,0,0.92);
+    background-color: rgb(231, 231, 231);
+}
+.form-titulo{
+    margin: 20px;
+}
+.form-titulo h2{
+    font-size: 30px;
+    color: #203038;
+    text-align: center;
+
+}
+.form-titulo p{
+    font-size: 20px;
+    color: #485858;
+    text-align: center;
+}
+
+.centrado{
+    width: 100%;
+}
+.centrado button{
+    margin-left: 30px ;
 }
 
 
@@ -108,6 +152,11 @@ html{
         height: 380px;
     }  
 }
+@media(max-width:700px){
+    .sec-form-contact{
+        padding: 30px;
+    }
+}
 @media(max-width:515px){
     .item-img img {
         width: 320px;
@@ -126,7 +175,8 @@ html{
     .item-img img:hover {
         width: 320px;
         height: 280px;
-    }  
+    }
+    
 }
 @media(max-width:370px){
     .item-img img {
@@ -137,6 +187,9 @@ html{
         width: 300px;
         height: 260px;
     }  
+    .sec-form-contact{
+        padding: 30px 15px;
+    }
 }
 @media(max-width:345px){
     .cerca-imagenes{
@@ -153,14 +206,18 @@ html{
         height: 240px;
     }  
 }
+#sec-form-contacto{
+    background-color:#f7f7f7;
+}
 
 
-/* PALETA: 
+/* PALETA de colores: 
 #485858
 #606058
 #788078
 #587888
 #b0b0a0
+#f7f7f7
  */
 
 
