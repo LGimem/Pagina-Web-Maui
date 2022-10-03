@@ -16,10 +16,11 @@
         <div class="cerca-container">
             <div class="cerca-titulo">
                 <div class="item-0">
-                    <h1>Explorando Maui</h1>
+                    <h1>Experiencias</h1>
                 </div>
                 <div class="item-0">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita!</p>
+                    <p> Maui ha sido votada con frecuencia como una de las mejores islas del mundo, por eso hay diversas actividades para quienes deseen explorar la isla. Nuestra ubicación inigualable, en la paradisíaca playa de Kaanapali, ofrece los mejores tours de esnórquel, tortugas y aguas tranquilas para disfrutar un día de relax en el mar. Tome la carretera escénica a Hana o experimente el amanecer en la cima de Haleakala. Realice una caminata hasta una cascada o mírelo todo desde arriba durante un recorrido en helicóptero por el Parque Nacional. Las oportunidades son realmente infinitas.
+                    </p>
                 </div>
             </div>
         
@@ -64,19 +65,31 @@
                     <!-- Name input -->
                     <div class="form-outline mb-4">
                     <input type="text" id="form4Example1" class="form-control" required/>
-                    <label class="form-label" for="form4Example1">Name</label>
+                    <label class="form-label" for="form4Example1">Nombre y Apellido</label>
                     </div>
                 
                     <!-- Email input -->
                     <div class="form-outline mb-4">
                     <input type="email" id="form4Example2" class="form-control" required/>
-                    <label class="form-label" for="form4Example2">Email address</label>
+                    <label class="form-label" for="form4Example2">Email</label>
                     </div>
                     
                     <!-- Teléfono input -->
                     <div class="form-outline mb-4">
-                        <input type="teléfono" id="form4Example2" class="form-control" required />
-                        <label class="form-label" for="form4Example2">Teléfono</label>
+                        <select id="pais">
+                            <option value="">SELECCIONE UN PAIS</option>
+                            <option value="+1">Estados Unidos</option>
+                            <option value="+57">Colombia</option>
+                            <option value="+91">India</option>
+                            <option value="+49">Alemania</option>
+                            <option value="+93">Afghanistan</option>
+                            <option value="+355">Albania</option>
+                            <option value="+54">Argentina</option>
+                            <option value="+56">Chile</option>
+                            <option value="+52">Mexico</option>
+                        </select>
+                        <br>
+                        <input type="text" id="telf" disabled="disabled"/>
                     </div>
 
                     <!-- Informacion desplegable del hotel -->
@@ -122,5 +135,8 @@
 
 
     </section>
+
+    
+    <script type="text/javascript" src="static/js/main.js"></script>
 </body>
 </html>
