@@ -120,7 +120,74 @@ html{
 .centrado button{
     margin-left: 30px ;
 }
+#sec-form-contacto{
+    background-color:#f7f7f7;
+}
+/* seccion contacto y links social */
 
+#index_sec_info{
+    width: 100%;
+   
+}
+.links-contacto{
+    display:flex;
+    column-gap: 30px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color:#d8d8d8;
+    
+}
+.links-social{
+    display: flex;
+    column-gap: 25px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color:#b0b0a0;
+    
+}
+
+.links-contacto img{
+   height: 30px;
+   width: auto;
+   margin: 20px;
+   padding: 0px 40px 0px 40px;
+   color: #203038;
+   transition: all 0.5s ease 0s;
+   
+}
+.links-contacto img:hover{
+    height: 35px;
+    width: auto;
+    margin: 0px;
+   
+    
+}
+
+.links-social img{
+   height: 25px;
+   width: auto;
+   margin: 25px;
+   color: #203038;
+   transition: all 0.5s ease 0s;
+}
+.links-social img:hover{
+    height: 35px;
+    width: auto;
+    margin: 0px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b0b0a0;
+    padding: 10px;
+
+}
+h3{
+    font-size: 10px;
+}
 
 /* Responsive */
 @media(max-width:1280px){
@@ -163,8 +230,53 @@ html{
 @media(max-width:700px){
     .sec-form-contact{
         padding: 30px;
+    
+    }
+
+    .links-contacto img{
+        margin: 10px;
+        padding: 0px;
+    }
+    .links-social img{
+        margin: 15px;
+        padding: 0px;
+    }
+
+}
+
+
+@media(max-width:610px){
+    .links-contacto{
+        margin: 10px;
+        column-gap: 0px;
+    }
+    .links-social{
+        margin: 10px;
+        column-gap: 0px;
+    }
+
+    .links-contacto img{
+        margin: 5px;
+        padding: 0px;
+        
+    }
+    .links-social img{
+        margin: 5px;
+        padding: 0px;
+    }
+    
+}
+@media(max-width:595px){
+    .links-contacto{
+        margin: 5px;
+        column-gap: 5px;
+    }
+    .links-social{
+        margin: 5px;
+        column-gap: 5px;
     }
 }
+
 @media(max-width:515px){
     .item-img img {
         width: 320px;
@@ -175,6 +287,9 @@ html{
         height: 320px;
     }   
 }
+
+
+
 @media(max-width:400px){
     .item-img img {
         width: 280px;
@@ -184,8 +299,9 @@ html{
         width: 320px;
         height: 280px;
     }
-    
+   
 }
+
 @media(max-width:370px){
     .item-img img {
         width: 260px;
@@ -214,9 +330,7 @@ html{
         height: 240px;
     }  
 }
-#sec-form-contacto{
-    background-color:#f7f7f7;
-}
+
 
 
 /* PALETA de colores: 
